@@ -37,12 +37,6 @@ export default function Navbar() {
             >
               Forecast
             </a>
-            <a
-              href="/api/alert"
-              className="rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition-all hover:bg-primary-light hover:shadow-lg hover:shadow-primary/25"
-            >
-              Send Alert
-            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -85,12 +79,6 @@ export default function Navbar() {
             onClick={() => setMobileOpen(false)}
           >
             Forecast
-          </a>
-          <a
-            href="/api/alert"
-            className="block w-full text-center rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition-all hover:bg-primary-light"
-          >
-            Send Alert
           </a>
         </div>
       )}
